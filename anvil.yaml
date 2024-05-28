@@ -234,6 +234,9 @@ db_schema:
     - name: usertype
       admin_ui: {width: 200, order: 8}
       type: string
+    - name: pan_card_no
+      admin_ui: {width: 200, order: 9}
+      type: string
   wallet:
     title: wallet
     client: full
