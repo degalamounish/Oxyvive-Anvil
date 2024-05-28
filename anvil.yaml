@@ -237,6 +237,9 @@ db_schema:
     - name: pan_card_no
       admin_ui: {width: 200, order: 9}
       type: string
+    - name: gst_no
+      admin_ui: {width: 200, order: 10}
+      type: string
   wallet:
     title: wallet
     client: full
