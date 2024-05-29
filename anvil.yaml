@@ -96,6 +96,9 @@ db_schema:
     - name: gst
       admin_ui: {width: 200, order: 16}
       type: string
+    - name: description
+      admin_ui: {width: 200, order: 17}
+      type: string
   oxigyms:
     title: oxigyms
     client: full
@@ -149,6 +152,9 @@ db_schema:
     - name: oxigym_id
       admin_ui: {width: 200, order: 15}
       type: string
+    - name: description
+      admin_ui: {width: 200, order: 16}
+      type: string
   oxiwheels:
     title: oxiwheels
     client: full
@@ -201,6 +207,9 @@ db_schema:
       type: media
     - name: oxywheel_id
       admin_ui: {width: 200, order: 15}
+      type: string
+    - name: description
+      admin_ui: {width: 200, order: 16}
       type: string
   users:
     title: users
