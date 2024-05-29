@@ -93,6 +93,9 @@ db_schema:
     - name: oxiclinics_id
       admin_ui: {width: 200, order: 14.5}
       type: string
+    - name: oxiclinics_description
+      admin_ui: {width: 200, order: 16}
+      type: string
   oxigyms:
     title: oxigyms
     client: full
@@ -145,6 +148,9 @@ db_schema:
       type: string
     - name: oxi_name
       admin_ui: {width: 200, order: 0.5}
+      type: string
+    - name: oxigyms_description
+      admin_ui: {width: 200, order: 16}
       type: string
   oxiwheels:
     title: oxiwheels
@@ -201,6 +207,9 @@ db_schema:
       type: media
     - name: oxiwheels_id
       admin_ui: {width: 200, order: 14.5}
+      type: string
+    - name: oxiwheels_description
+      admin_ui: {width: 200, order: 17}
       type: string
   oxi_users:
     title: oxi_users
