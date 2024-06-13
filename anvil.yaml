@@ -96,6 +96,9 @@ db_schema:
     - name: oxiclinics_description
       admin_ui: {width: 200, order: 16}
       type: string
+    - name: oxiclinics_hosiptal_images
+      admin_ui: {width: 200, order: 17}
+      type: media
   oxigyms:
     title: oxigyms
     client: full
