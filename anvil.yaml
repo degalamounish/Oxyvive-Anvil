@@ -224,4 +224,39 @@ db_schema:
       admin_ui: {width: 200, order: 5}
       type: string
     title: oxi_bank_accounts
+  oxiclinics:
+    client: full
+    server: full
+    columns:
+    - name: oxiclinics_Name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: oxiclinics_established_year
+      admin_ui: {width: 200, order: 1}
+      type: date
+    - name: oxiclinics_District
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: oxiclinics_State
+      admin_ui: {width: 200, order: 3}
+      type: string
+    - name: oxiclinics_pincode
+      admin_ui: {width: 200, order: 4}
+      type: number
+    - name: oxiclinics_address
+      admin_ui: {width: 200, order: 5}
+      type: string
+    - name: oxiclinics_capsules
+      admin_ui: {width: 200, order: 6}
+      type: number
+    - name: oxiclinics_medical_licence
+      admin_ui: {width: 200, order: 7}
+      type: media
+    - name: oxiclinics_building_licence
+      admin_ui: {width: 200, order: 8}
+      type: media
+    - name: oxiclinics_hosiptal_images
+      admin_ui: {width: 200, order: 9}
+      type: media
+    title: oxiclinics
 uplink_visible: true
