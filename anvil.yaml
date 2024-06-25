@@ -78,6 +78,9 @@ db_schema:
     - name: oxi_gst_no
       admin_ui: {width: 200, order: 10}
       type: string
+    - name: oxi_profile_pic
+      admin_ui: {width: 200, order: 11}
+      type: media
   oxi_wallet:
     title: oxi_wallet
     client: full
