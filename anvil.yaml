@@ -14,32 +14,6 @@ runtime_options:
   server_spec: {base: python310-standard}
 startup_form: null
 db_schema:
-  book_slot:
-    title: book_slot
-    client: full
-    server: full
-    columns:
-    - name: book_time
-      admin_ui: {width: 200}
-      type: string
-    - name: service_type
-      admin_ui: {width: 200, order: 5}
-      type: string
-    - name: user_id
-      admin_ui: {width: 200, order: 7}
-      type: string
-    - name: book_date
-      admin_ui: {width: 200, order: 8}
-      type: date
-    - name: serviceProvider_id
-      admin_ui: {width: 200, order: 9}
-      type: string
-    - name: slot_id
-      admin_ui: {width: 200}
-      type: number
-    - name: username
-      admin_ui: {width: 200}
-      type: string
   oxi_users:
     title: oxi_users
     client: full
@@ -258,5 +232,31 @@ db_schema:
       type: string
     - name: oxiwheels_description
       admin_ui: {width: 200, order: 17}
+      type: string
+  oxi_book_slot:
+    title: oxi_book_slot
+    client: full
+    server: full
+    columns:
+    - name: book_time
+      admin_ui: {width: 200}
+      type: string
+    - name: service_type
+      admin_ui: {width: 200, order: 5}
+      type: string
+    - name: user_id
+      admin_ui: {width: 200, order: 7}
+      type: string
+    - name: book_date
+      admin_ui: {width: 200, order: 8}
+      type: date
+    - name: serviceProvider_id
+      admin_ui: {width: 200, order: 9}
+      type: string
+    - name: slot_id
+      admin_ui: {width: 200}
+      type: number
+    - name: username
+      admin_ui: {width: 200}
       type: string
 uplink_visible: true
