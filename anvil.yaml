@@ -247,9 +247,6 @@ db_schema:
     - name: user_id
       admin_ui: {order: 4, width: 200}
       type: string
-    - name: book_date
-      admin_ui: {width: 200, order: 8}
-      type: date
     - name: serviceProvider_id
       admin_ui: {width: 200, order: 9}
       type: string
@@ -259,4 +256,7 @@ db_schema:
     - name: username
       admin_ui: {width: 200}
       type: string
+    - name: book_date
+      admin_ui: {width: 200, order: 7}
+      type: number
 uplink_visible: true
