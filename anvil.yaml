@@ -258,5 +258,5 @@ db_schema:
       type: string
     - name: book_date
       admin_ui: {width: 200, order: 7}
-      type: number
+      type: string
 uplink_visible: true
