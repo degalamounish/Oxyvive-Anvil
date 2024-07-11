@@ -46,7 +46,7 @@ db_schema:
     - name: oxi_address
       admin_ui: {width: 200, order: 5.5}
       type: string
-    - name: oxi_pan_no
+    - name: oxi_pan_card_no
       admin_ui: {order: 9, width: 200}
       type: string
     - name: oxi_gst_no
